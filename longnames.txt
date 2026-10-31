@@ -1,0 +1,32 @@
+
+prefix of 0 characters before every name ("found / true, of returned")
+  baseline                         expla 519/519 of 519; markting 0/328 of 0; pitch 524/524 of 524; typos 0/10
+  baseline-typo                    expla 519/519 of 519; markting 328/328 of 328; pitch 524/524 of 524; typos 10/10
+  minisearch                       expla 519/519 of 519; markting 328/328 of 328; pitch 524/524 of 524; typos 8/10
+  fuse                             expla 519/519 of 1398; markting 328/328 of 1730; pitch 524/524 of 811; typos 10/10
+  fuse {"ignoreLocation":true}     expla 519/519 of 2913; markting 328/328 of 1730; pitch 524/524 of 2502; typos 10/10
+  fuse {"threshold":0.4}           expla 519/519 of 519; markting 328/328 of 328; pitch 524/524 of 524; typos 10/10
+
+prefix of 15 characters before every name ("found / true, of returned")
+  baseline                         expla 519/519 of 519; markting 0/328 of 0; pitch 524/524 of 524; typos 0/10
+  baseline-typo                    expla 519/519 of 519; markting 328/328 of 328; pitch 524/524 of 524; typos 10/10
+  minisearch                       expla 519/519 of 519; markting 328/328 of 328; pitch 524/524 of 524; typos 8/10
+  fuse                             expla 519/519 of 577; markting 328/328 of 631; pitch 524/524 of 524; typos 9/10
+  fuse {"ignoreLocation":true}     expla 519/519 of 2913; markting 328/328 of 1730; pitch 524/524 of 5000; typos 10/10
+  fuse {"threshold":0.4}           expla 519/519 of 519; markting 328/328 of 328; pitch 524/524 of 524; typos 8/10
+
+prefix of 52 characters before every name ("found / true, of returned")
+  baseline                         expla 519/519 of 519; markting 0/328 of 0; pitch 524/524 of 524; typos 0/10
+  baseline-typo                    expla 519/519 of 519; markting 328/328 of 328; pitch 524/524 of 524; typos 10/10
+  minisearch                       expla 519/519 of 519; markting 328/328 of 328; pitch 524/524 of 524; typos 8/10
+  fuse                             expla 248/519 of 248; markting 0/328 of 0; pitch 385/524 of 385; typos 1/10
+  fuse {"ignoreLocation":true}     expla 519/519 of 5000; markting 328/328 of 1730; pitch 524/524 of 5000; typos 10/10
+  fuse {"threshold":0.4}           expla 0/519 of 0; markting 0/328 of 0; pitch 0/524 of 0; typos 0/10
+
+prefix of 83 characters before every name ("found / true, of returned")
+  baseline                         expla 519/519 of 519; markting 0/328 of 0; pitch 524/524 of 524; typos 0/10
+  baseline-typo                    expla 519/519 of 519; markting 328/328 of 328; pitch 524/524 of 524; typos 10/10
+  minisearch                       expla 519/519 of 519; markting 328/328 of 328; pitch 524/524 of 524; typos 8/10
+  fuse                             expla 0/519 of 0; markting 0/328 of 0; pitch 0/524 of 0; typos 0/10
+  fuse {"ignoreLocation":true}     expla 519/519 of 5000; markting 328/328 of 1730; pitch 524/524 of 5000; typos 10/10
+  fuse {"threshold":0.4}           expla 0/519 of 0; markting 0/328 of 0; pitch 0/524 of 0; typos 0/10
