@@ -1,0 +1,34 @@
+node v26.13.0; 5000 items; data 58.8 KB gzipped
+
+== baseline: download 59.2 KB gz (library 0.0, data 58.8, glue 0.3)
+  settings {}  build 0 ms
+    PASS q1_word_and_type  10/10 of the top 10 are true matches (truth 348, returned 348); median 0.09 ms, p95 0.136 ms
+    PASS q2_prefix         10/10 of the top 10 are true matches (truth 519, returned 519); median 0.483 ms, p95 0.542 ms
+    FAIL q3_typo           0 of top 10 are marketing items; median 0.47 ms, p95 0.519 ms
+    PASS q4_bot_this_week  10/10 of the top 10 are true matches (truth 15, returned 15); median 0.032 ms, p95 0.047 ms
+
+== baseline-typo: download 59.6 KB gz (library 0.0, data 58.8, glue 0.7)
+  settings {}  build 0 ms
+    PASS q1_word_and_type  10/10 of the top 10 are true matches (truth 348, returned 348); median 0.101 ms, p95 0.143 ms
+    PASS q2_prefix         10/10 of the top 10 are true matches (truth 519, returned 519); median 0.516 ms, p95 0.571 ms
+    PASS q3_typo           10 of top 10 are marketing items; median 3.289 ms, p95 3.505 ms
+    PASS q4_bot_this_week  10/10 of the top 10 are true matches (truth 15, returned 15); median 0.032 ms, p95 0.041 ms
+
+== minisearch: download 77.0 KB gz (library 17.8, data 58.8, glue 0.4)
+  defaults {}  build 6.5 ms
+    PASS q1_word_and_type  10/10 of the top 10 are true matches (truth 348, returned 348); median 0.135 ms, p95 0.273 ms
+    FAIL q2_prefix         0/10 of the top 10 are true matches (truth 519, returned 0); median 0.001 ms, p95 0.001 ms
+    FAIL q3_typo           0 of top 10 are marketing items; median 0.001 ms, p95 0.001 ms
+    PASS q4_bot_this_week  10/10 of the top 10 are true matches (truth 15, returned 15); median 0.392 ms, p95 0.763 ms
+  settings {"prefix":true,"fuzzy":0.2}  build 4.6 ms
+    PASS q1_word_and_type  10/10 of the top 10 are true matches (truth 348, returned 348); median 0.151 ms, p95 0.2 ms
+    PASS q2_prefix         10/10 of the top 10 are true matches (truth 519, returned 519); median 0.141 ms, p95 0.219 ms
+    PASS q3_typo           10 of top 10 are marketing items; median 0.08 ms, p95 0.095 ms
+    PASS q4_bot_this_week  10/10 of the top 10 are true matches (truth 15, returned 15); median 0.358 ms, p95 0.454 ms
+
+== fuse: download 68.2 KB gz (library 9.0, data 58.8, glue 0.3)
+  settings {}  build 1.4 ms
+    PASS q1_word_and_type  10/10 of the top 10 are true matches (truth 348, returned 379); median 4.089 ms, p95 4.322 ms
+    PASS q2_prefix         10/10 of the top 10 are true matches (truth 519, returned 1398); median 4.217 ms, p95 4.487 ms
+    PASS q3_typo           10 of top 10 are marketing items; median 7.007 ms, p95 7.118 ms
+    PASS q4_bot_this_week  10/10 of the top 10 are true matches (truth 15, returned 15); median 0.032 ms, p95 0.038 ms

@@ -1,0 +1,3 @@
+baseline   harbor: PASS (truth 486, returned 486); old four: q1 PASS, q2 PASS, q3 FAIL, q4 PASS
+minisearch harbor: PASS (truth 486, returned 486); old four: q1 PASS, q2 PASS, q3 PASS, q4 PASS
+fuse       harbor: PASS (truth 486, returned 1106); old four: q1 PASS, q2 PASS, q3 PASS, q4 PASS

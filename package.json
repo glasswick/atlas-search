@@ -1,0 +1,9 @@
+{
+  "name": "atlas-search-comparison",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "fuse.js": "7.5.0",
+    "minisearch": "7.2.0"
+  }
+}
